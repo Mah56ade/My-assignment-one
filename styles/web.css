@@ -72,6 +72,19 @@
     margin-bottom: 16px;
 }
 
+.common-small-font {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+
+}
+
+.icons {
+    background-color: #F95555;
+    color: #FFFFFF;
+    border-radius: 50%;
+
+}
 
 /*main style*/
 header {
@@ -172,4 +185,123 @@ nav .menu a {
     text-align: center;
     margin: 0 auto;
     border: 0;
+}
+
+#sector-one {
+    width: 100%;
+    max-width: 1600px;
+    padding: 120px 120px 120px 120px;
+}
+
+#sector-one .sector-heading {
+    /* border: 1px solid red; */
+    width: 1360px;
+    text-align: center;
+    gap: 16px;
+    margin-bottom: 44px;
+}
+
+#sector-one .sector-heading h3 {
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+#sector-one .sector-one-card {
+    /* border: 1px solid blue; */
+    width: 1360px;
+    height: 300px;
+    gap: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+#sector-one .sector-one-card .card {
+    gap: 16px;
+    /* border: 1px solid green;*/
+    text-align: center;
+    border-radius: 8px;
+}
+
+.card img {
+    margin: 70px 131px 0 131px;
+}
+
+.card h4 {
+    width: 274px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.card p {
+    width: 274;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 70px;
+}
+
+#sector-two {
+    width: 1600px;
+    padding: 120px 120px;
+    border: 2px solid red;
+}
+
+#sector-two .img-solution {
+    width: 1360px;
+    display: flex;
+    justify-content: left;
+    gap: 60px;
+}
+
+#sector-two .img-solution .big-img {
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+
+}
+
+#sector-two .solution-part {
+
+    width: 700px;
+    gap: 40px;
+    border: 1px solid blue;
+    margin-top: 102px;
+    margin-bottom: 102px;
+    align-items: top left;
+}
+
+.solution-part .heading {
+    gap: 16px;
+    width: 700px;
+
+}
+
+.solution-part .heading .solution {
+    color: #30B868;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.solution-part .heading h3 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}
+
+.solution-part .dtails {
+    gap: 16px;
+    width: 700px;
+    /* border: 1px solid red; */
+    margin-top: 40px;
+
+}
+
+.solution-part .dtails p {
+    width: 382px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #001931;
+
+
 }
