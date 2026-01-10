@@ -243,8 +243,8 @@ nav .menu a {
 
 #sector-two {
     width: 1600px;
-    padding: 120px 120px;
-    border: 2px solid red;
+    padding: 0 120px 120px 120px;
+    /* border: 2px solid red; */
 }
 
 #sector-two .img-solution {
@@ -265,7 +265,7 @@ nav .menu a {
 
     width: 700px;
     gap: 40px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin-top: 102px;
     margin-bottom: 102px;
     align-items: top left;
@@ -295,6 +295,8 @@ nav .menu a {
     /* border: 1px solid red; */
     margin-top: 40px;
 
+
+
 }
 
 .solution-part .dtails p {
@@ -303,5 +305,135 @@ nav .menu a {
     line-height: 20px;
     color: #001931;
 
+
+}
+
+
+
+#sector-three {
+    width: 1600px;
+    padding: 2px 120px 120px 120px;
+    /* border: 1px solid red; */
+}
+
+#sector-three .parts {
+    width: 1360px;
+    height: 384px;
+    padding: 80px 40px;
+    text-align: center;
+    /* border: 2px solid blue; */
+    border-radius: 12px;
+    background-color: #F7F6F2;
+    gap: 24px;
+}
+
+.parts .part-one {
+    width: 1280px;
+    gap: 16px;
+    /* border: 1px solid green; */
+    margin-bottom: 24px;
+
+
+}
+
+.parts .part-one h3 {
+    font-size: 40px;
+    color: #001931;
+}
+
+.parts .part-one p {
+
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+
+}
+
+#sector-three .parts .part-two {
+    /* border: 1px solid rgb(255, 0, 242); */
+    gap: 16px;
+    height: 88px;
+    width: 1280px;
+
+}
+
+.part-two button {
+    background-color: #469165;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    border-radius: 4px;
+    width: 194px;
+    height: 52px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 10px 20px #0000005d;
+    margin: 17px 46px 17px 16px;
+}
+
+
+footer {
+    width: 1600px;
+    height: 384px;
+    /* border: 2px solid red; */
+    padding: 120px 120px 30px 120px;
+    background-color: #001931;
+
+
+}
+
+footer .main-container {
+
+    /* border: 2px solid gold; */
+    gap: 80px;
+
+}
+
+.main-container .end-one {
+    display: flex;
+    justify-content: space-between;
+    width: 1360px;
+    height: 64px;
+    margin-bottom: 80px;
+
+}
+
+.end-one image {
+    width: 139px;
+    height: 60px;
+
+}
+
+.end-one .links {
+    width: 220px;
+    height: 64px;
+
+}
+
+.end-one p {
+    text-align: top;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+
+}
+
+.end-one .links a {
+
+    color: #FFFFFF;
+
+
+}
+
+footer .main-container .end-two {
+    width: 1360px;
+    height: 54px;
+}
+
+footer .main-container .end-two p {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FAFAFA;
+    text-align: center;
 
 }
